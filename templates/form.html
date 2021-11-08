@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div style="text:white;">
+    <p>Enter the e-mail address that you used when signing up for Green Party membership. <span style="color:red;">{{message}}</span></p>
+
+    <form action="/action" method="post">
+        <label for="email">E-mail address:<input name="email" id="email" type="email" value='{{email}}'></label>
+
+        <center>{{ recaptcha }}</center>
+
+        <input type="submit" value="Submit"/>
+    </form>
+
+    <p>
+        If you are a member of <strong>Stroud District Green Party</strong> we will send you an e-mail within the next 5 minutes containing your login details for StroudShare. 
+        Check your spam folder if you have not recieved the message. 
+    </p>
+    <p>
+        If you already have an account, this will reset your password. 
+    </p>
+</div>
+
+{% endblock %}

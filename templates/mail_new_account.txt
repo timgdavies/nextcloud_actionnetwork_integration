@@ -1,0 +1,15 @@
+Dear {{ displayname }}
+
+We have created a {{ nc_instance_name }} account for you. 
+
+You can login at {{ nc_host }} with the username {{ username }} or your e-mail address ({{ email }}).
+
+Your password is:
+
+{{ password }}
+
+(Please copy this without any leading or trailing spaces. )
+
+You can change your password once logged in by going to {{ nc_host }}/index.php/settings/user/security
+
+If you have any questions, please contact the admin for {{ nc_instance_name }}.
