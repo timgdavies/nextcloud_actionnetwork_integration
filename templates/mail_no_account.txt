@@ -1,6 +1,6 @@
 Hello
 
-Someone, hopefully you, submitted an account request at {{ nc_instance_name }}*. 
+Someone submitted an account request for {{ email }} at {{ nc_instance_name }}. 
 
 We were not able to find an active membership in the {{ an_instance_name }} database. 
 
@@ -9,6 +9,3 @@ This may be because you are registered with the {{ an_instance_name }} with a di
 Check which e-mail address you recieve {{ an_instance_name }} e-mail on, and if different from {{ email }} please request access again.
 
 Alternatively, please contact the {{ nc_instance_name }} administrator for further support.
-
-
-(*If this wasn't you, please ignore this e-mail.)
