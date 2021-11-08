@@ -1,0 +1,4 @@
+.ve
+.env
+setenv.sh
+__pycache__
